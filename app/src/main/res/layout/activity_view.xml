@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.vandr.playerview.PlayerView
+            android:id="@+id/player1"
+            android:layout_width="@dimen/dp0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+
+            android:contentDescription="@string/playerShaparenko"
+            app:PV_firstNamePlayer="@string/player_first_first_name"
+            app:PV_imgPlayer="@drawable/card_player_1"
+            app:PV_numberPlayer="@string/player_first_numberPlayer"
+            app:PV_secondNamePlayer="@string/player_first_second_name"
+            app:PV_selectedColor="@color/yellow"
+            app:PV_teamNamePlayer="@string/player_first_teamPlayer"
+
+            app:PV_unSelectedColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.vandr.playerview.PlayerView
+            android:id="@+id/player2"
+            android:layout_width="@dimen/dp0"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/dp5"
+            android:contentDescription="@string/playerPyatov"
+            app:PV_firstNamePlayer="@string/player_second_first_name"
+            app:PV_imgPlayer="@drawable/card_player_2"
+            app:PV_numberPlayer="@string/player_second_numberPlayer"
+            app:PV_secondNamePlayer="@string/player_second_second_name"
+            app:PV_selectedColor="@color/yellow"
+
+            app:PV_teamNamePlayer="@string/player_second_teamPlayer"
+            app:PV_unSelectedColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/player1" />
+
+        <com.vandr.playerview.PlayerView
+            android:id="@+id/player3"
+            android:layout_width="@dimen/dp0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+
+            android:contentDescription="@string/playerKonoplyanka"
+            app:PV_firstNamePlayer="@string/player_third_first_name"
+            app:PV_imgPlayer="@drawable/card_player_3"
+            app:PV_numberPlayer="@string/player_third_numberPlayer"
+            app:PV_secondNamePlayer="@string/player_third_second_name"
+            app:PV_selectedColor="@color/yellow"
+            app:PV_teamNamePlayer="@string/player_third_teamPlayer"
+
+            app:PV_unSelectedColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/player2" />
+
+        <com.vandr.playerview.PlayerView
+            android:id="@+id/player4"
+            android:layout_width="@dimen/dp0"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp5"
+
+            android:contentDescription="@string/playerBezborodko"
+            app:PV_firstNamePlayer="@string/player_four_first_name"
+            app:PV_imgPlayer="@drawable/card_player_4"
+            app:PV_numberPlayer="@string/player_four_numberPlayer"
+            app:PV_secondNamePlayer="@string/player_four_second_name"
+            app:PV_selectedColor="@color/yellow"
+            app:PV_teamNamePlayer="@string/player_four_teamPlayer"
+
+            app:PV_unSelectedColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/player3" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

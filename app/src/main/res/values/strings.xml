@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">PlayerView</string>
+    <string name="linear">linear</string>
+    <string name="frame">Frame</string>
+    <string name="constraint">Constraint</string>
+    <string name="menu_background">menu_background</string>
+    <string name="main_label">Головне меню</string>
+    <string name="description_label">by Vladyslav</string>
+
+    <string name="player_first_first_name">Микола</string>
+    <string name="player_first_second_name">Шапаренко</string>
+    <string name="player_first_teamPlayer">ФК Динамо</string>
+    <string name="player_first_numberPlayer">#10</string>
+
+    <string name="player_second_first_name">Євген</string>
+    <string name="player_second_second_name">Коноплянка</string>
+    <string name="player_second_teamPlayer">ФК Шахтар</string>
+    <string name="player_second_numberPlayer">#30</string>
+
+    <string name="player_third_first_name">Андрій</string>
+    <string name="player_third_second_name">П\'ятов</string>
+    <string name="player_third_teamPlayer">ФК Шахтар</string>
+    <string name="player_third_numberPlayer">#1</string>
+
+    <string name="player_four_first_name">Денис</string>
+    <string name="player_four_second_name">Безбородько</string>
+    <string name="player_four_teamPlayer">ФК Десна</string>
+    <string name="player_four_numberPlayer">#12</string>
+
+    <string name="playerShaparenko">Player Shaparenko</string>
+    <string name="playerPyatov">Player Pyatov</string>
+    <string name="playerBezborodko">Player Bezborodko</string>
+    <string name="playerKonoplyanka">Player Konoplyanka</string>
+    <string name="first_name_player">FirstNamePlayer</string>
+    <string name="image_player">ImagePlayer</string>
+    <string name="number_player">NumberPlayer</string>
+    <string name="team_name_player">TeamNamePlayer</string>
+    <string name="second_name_player">SecondNamePlayer</string>
+    <string name="button_custom_view">custom_view</string>
+</resources>

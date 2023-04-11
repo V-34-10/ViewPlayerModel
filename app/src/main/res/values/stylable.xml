@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PlayerView">
+        <attr name="PV_selectedColor" format="color"/>
+        <attr name="PV_unSelectedColor" format="color"/>
+        <attr name="PV_firstNamePlayer" format="reference" />
+        <attr name="PV_secondNamePlayer" format="reference"/>
+        <attr name="PV_teamNamePlayer" format="reference" />
+        <attr name="PV_numberPlayer" format="reference"/>
+        <attr name="PV_imgPlayer" format="reference"/>
+    </declare-styleable>
+</resources>
