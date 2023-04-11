@@ -1,2 +1,2 @@
 # ViewPlayerModel
-MVVM, Player Card
+MVVM, BaseDialog, Player Card
